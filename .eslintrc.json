@@ -1,0 +1,9 @@
+
+{
+  "extends": ["next", "eslint:recommended"],
+  "rules": {
+    "semi": ["error", "never"],
+    "quotes": ["error", "double"]
+  }
+}
+
