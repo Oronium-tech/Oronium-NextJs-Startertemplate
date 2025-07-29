@@ -7,7 +7,13 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "prepare": "husky"
+    "prepare": "husky && husky install"
+  },
+  "lint-staged": {
+    "*.{js,ts,tsx}": [
+      "eslint --fix",
+      "prettier --write"
+    ]
   },
   "dependencies": {
     "@reduxjs/toolkit": "^2.8.2",
@@ -24,7 +30,7 @@
     "commitlint": "^19.8.1",
     "eslint": "^9",
     "eslint-config-next": "15.4.4",
-    "husky": "^9.1.7",
+    "husky": "^8.0.0",
     "lint-staged": "^16.1.2",
     "prettier": "3.6.2",
     "tailwindcss": "^4.1.11"
