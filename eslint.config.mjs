@@ -18,10 +18,6 @@ const eslintConfig = [
       "new-cap": ["error", { newIsCap: true }], // enforce PascalCase for components
       "no-console": ["error", { allow: ["warn", "error"] }], // block console.log
 
-      // ✅ Code style
-      semi: ["error", "never"],
-      quotes: ["error", "double"],
-
       // ✅ Imports: enforce shared/ui vs feature-specific
       "no-restricted-imports": [
         "error",

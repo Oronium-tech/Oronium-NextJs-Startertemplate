@@ -1,3 +1,6 @@
+/* eslint-disable new-cap */
+/* eslint-disable camelcase */
+/* eslint-disable no-restricted-imports */
 import { Geist, Geist_Mono } from "next/font/google"
 import "../styles/globals.css"
 import Providers from "./providers"
@@ -18,10 +21,6 @@ export const metadata = {
 }
 
 export default function RootLayout({ children }) {
-  let Name = "Don"
-
-  console.log(Name)
-
   return (
     <html lang="en">
       <body
