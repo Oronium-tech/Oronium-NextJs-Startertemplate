@@ -18,6 +18,10 @@ export const metadata = {
 }
 
 export default function RootLayout({ children }) {
+  let name = "Don"
+
+  console.log(name)
+
   return (
     <html lang="en">
       <body
